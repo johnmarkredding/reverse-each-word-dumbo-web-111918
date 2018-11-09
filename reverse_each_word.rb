@@ -1,9 +1,10 @@
 def reverse_each_word(string)
   arr = string.split(" ")
+  new_arr = []
   for item in arr do {
-    item = item.reverse
+    new_arr << item.reverse
   }
   end
-  string = arr.join(" ")
+  string = new_arr.join(" ")
   string
 end
