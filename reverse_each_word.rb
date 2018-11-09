@@ -3,7 +3,7 @@ def reverse_each_word(string)
   for item in arr do {
     item = item.reverse
   }
-end
+  end
   string = arr.join(" ")
   string
 end
